@@ -152,3 +152,39 @@ elif(a==0):
 else:
    print("checking a boro ")
 
+
+
+#newww
+
+print("hello guys hope all of you are doing great")
+
+def fun_time(a,b):
+ sum = a+b
+ print(sum)
+
+
+
+fun_time(1,2)
+fun_time(11,2)
+fun_time(1,22)
+
+#zip function
+
+LIST= [1,2,3,4]
+LIST2= [5,6,7,8]
+
+#print(list(zip(LIST,LIST2)))
+
+
+#function day2
+ 
+def lol(a,b):
+ print("hello"+a)
+ print("hello"+b)
+ print("welcome together")
+
+
+
+
+
+ lol(2,2)
