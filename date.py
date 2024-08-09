@@ -54,4 +54,4 @@ except:
 
 
 hell = open("main.html","w")
-hell.write("<h1>hello</h1>")
+hell.write("<h1>hello lolsdfsd</h1>")
