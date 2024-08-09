@@ -34,3 +34,20 @@ if check:
 else:
     print("no match")
 
+
+
+# try and except
+try:
+ #print(0)
+ print(csdsdawd)
+except:
+    print("error")
+
+
+#file handling
+
+readfile=open("lol.txt","r")
+
+#print(readfile.read())
+xxx = readfile.read()
+#print(xxx)
