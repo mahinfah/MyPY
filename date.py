@@ -46,8 +46,12 @@ except:
 
 #file handling
 
-readfile=open("lol.txt","r")
+#readfile=open("lol.txt","r")
 
 #print(readfile.read())
-xxx = readfile.read()
+#xxx = readfile.read()
 #print(xxx)
+
+
+hell = open("main.html","w")
+hell.write("<h1>hello</h1>")
