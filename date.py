@@ -43,15 +43,5 @@ try:
 except:
     print("error")
 
-
-#file handling
-
-#readfile=open("lol.txt","r")
-
-#print(readfile.read())
-#xxx = readfile.read()
-#print(xxx)
-
-
-hell = open("main.html","w")
-hell.write("<h1>hello lolsdfsd</h1>")
+def check_module():
+ print("hello")

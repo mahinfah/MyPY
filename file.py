@@ -11,6 +11,9 @@ newfile.write("Hope everyone Will be happy ")
 neww = open("new.txt", "a")
 neww.write("nOW LET'S SEE N HOPE FOR THE BEST")
 
-import os
+#import os
 
-os.remove("lol.txt")
+##os.remove("lol.txt")
+
+def check_module():
+ print("hello")
