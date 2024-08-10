@@ -53,3 +53,16 @@
 
 #test=faculty()
 
+
+#PARAMETER PASSING IN A CONSTRUCTOR
+
+class hell:
+   def __init__(self,a,b,c):
+      self.name=a
+      self.age=b
+      self.department=c
+      print("name: "+self.name)
+      print("age: "+self.age)
+      print("department: "+self.department)
+    
+TEST= hell("mazedul","23","cse")
