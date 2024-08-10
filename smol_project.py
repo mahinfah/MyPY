@@ -29,6 +29,6 @@ def checkcgpa(sum,total):
    avg = sum / total    
    return avg
 
-avg = checkcgpa(sum, total)
-x = check(Name, sum, avg)
+avgO = checkcgpa(sum, total)
+x = check(Name, sum, avgO)
 x.display()
