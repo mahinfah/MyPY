@@ -8,7 +8,7 @@ class check:
     def display(self):
         print("Hello ",self.Name)
         print("You got mark total ",self.mark)
-        print("Your CGPA is ",self.cgpa)
+        print("Your Avg mark is ",self.cgpa)
 
 
 Name=input("Enter your name: ")
@@ -24,5 +24,11 @@ while i < total:
      sum = sum+tt 
      i = i + 1
      
-x = check(Name,sum,"GANGDu")
+
+def checkcgpa(sum,total):
+   avg = sum / total    
+   return avg
+
+avg = checkcgpa(sum, total)
+x = check(Name, sum, avg)
 x.display()
