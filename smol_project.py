@@ -19,7 +19,7 @@ sum = 0
 i=0
 while i < total:
      
-     total_mark=input("Enter your No subject mark :")
+     total_mark=input(f"Enter your No {i+1} subject mark: ")
      tt=int(total_mark)
      sum = sum+tt 
      i = i + 1
