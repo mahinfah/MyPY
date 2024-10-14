@@ -42,3 +42,12 @@ pi =1
 while pi<=10:
    print("2 *  " ,pi,"  =  " ,2*pi)
    pi=pi+1
+
+   #nested loop using for
+
+l11=["small","medium","large"]
+l1=["apple","banana","cherry"]
+
+for i in l11:
+    for j in l1:
+        print(i,j)
