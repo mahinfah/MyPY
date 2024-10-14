@@ -51,3 +51,13 @@ l1=["apple","banana","cherry"]
 for i in l11:
     for j in l1:
         print(i,j)
+
+
+#checking if number is even or odd
+
+check = input("Enter a number: ")
+check = int(check)
+if check % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
