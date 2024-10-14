@@ -61,3 +61,40 @@ if check % 2 == 0:
     print("The number is even")
 else:
     print("The number is odd")
+
+
+#range
+
+#for i in range(10):
+   # print(i+1)
+
+
+#factorial
+sum=1
+a=input("enter a number to find factorial: ")
+aa=int(a);
+for i in range(1,aa+1):
+    sum=sum*i
+    print(sum)
+    i=i+1
+
+
+print("Factorial of digit",aa,"  : " ,sum)   
+
+
+
+#panlindrom or reverse that are same of a number like 121, 1221, 12321
+
+q=input("Enter a number to check if it is palindrom or not: ")
+qq=int(q)
+digit=0
+while(qq!=0):
+    lol=qq%10
+    digit=(digit*10)+lol
+    qq=qq//10
+
+
+print("Reverse of the number is: ",digit)
+
+
+
